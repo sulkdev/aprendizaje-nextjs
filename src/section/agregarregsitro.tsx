@@ -1,6 +1,5 @@
 import Button from "@/components/button";
 import Input from "@/components/input";
-import { set } from "mongoose";
 import { useRef, useState } from "react";
 
 export default function AgregarRegistro() {

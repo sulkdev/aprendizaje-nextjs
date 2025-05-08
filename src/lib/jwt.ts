@@ -25,7 +25,7 @@ export async function verifyToken(token: string) {
       new TextEncoder().encode(JWT_SECRET)
     );
     return payload;
-  } catch (error) {
+  } catch  {
     throw new Error("Token inválido o expirado");
   }
 }

@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyToken } from "./jwt";
-import { parse } from "cookie";
 
 export async function verifyAuth(request: NextRequest) {
   const authHeader = request.cookies.get(process.env.TOKEN_KEY || "tkn")?.value;

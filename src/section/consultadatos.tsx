@@ -130,7 +130,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         data: data || null,
       },
     };
-  } catch (error) {
+  } catch {
     return {
       props: {
         data: null,

@@ -1,6 +1,4 @@
 import { verifyAuth } from "@/lib/auth";
-import dbConnect from "@/lib/mongodb";
-import Check from "@/models/Check";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {

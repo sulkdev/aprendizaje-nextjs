@@ -1,3 +1,6 @@
+/* src/app/api/check/route.ts */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { verifyAuth } from "@/lib/auth";
 import dbConnect from "@/lib/mongodb";
 import Check from "@/models/Check";
